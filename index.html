@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susan's DevOps Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 2rem;
+        }
+
+        .project h2 {
+            color: #4CAF50;
+            margin-bottom: 0.5rem;
+        }
+
+        .project p {
+            margin: 0.5rem 0;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Susan's DevOps Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="profile.png" alt="Portfolio Image">
+
+        </div>
+
+        <div class="project">
+            <h2>1. Flask App Deployment on EC2</h2>
+            <p>Automated the installation of Flask on an EC2 instance for running the `app.py` application, ensuring seamless deployment and scalability.</p>
+            <p><strong>Review:</strong> "Excellent job ensuring the Flask app runs flawlessly on AWS infrastructure."</p>
+        </div>
+
+        <div class="project">
+            <h2>2. S3 Bucket Setup with Terraform</h2>
+            <p>Created an S3 bucket named <code>s3-demo-8426</code> using Terraform, demonstrating proficiency in Infrastructure as Code (IaC).</p>
+            <p><strong>Review:</strong> "Great attention to detail and efficient use of Terraform for cloud resource management."</p>
+        </div>
+
+        <div class="project">
+            <h2>3. Kubernetes Project with EC2 Instances</h2>
+            <p>Configured a Kubernetes cluster on AWS with one master and two worker nodes using a combination of Terraform and Ansible roles.</p>
+            <p><strong>Review:</strong> "Impressive integration of tools to create a robust Kubernetes environment."</p>
+        </div>
+
+        <div class="project">
+            <h2>4. Git and Version Control Improvements</h2>
+            <p>Resolved issues with `.gitignore` and managed a streamlined version control process for projects.</p>
+            <p><strong>Review:</strong> "Demonstrated excellent understanding of Git workflows and file management."</p>
+        </div>
+
+        <div class="project">
+            <h2>5. IAM Access and EKS Cluster Permissions</h2>
+            <p>Resolved IAM principal access issues to Kubernetes objects on an EKS cluster, ensuring proper role-based access control (RBAC).</p>
+            <p><strong>Review:</strong> "Effectively handled security and access configurations for Kubernetes."</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Susan's DevOps Portfolio</p>
+    </footer>
+</body>
+</html>
